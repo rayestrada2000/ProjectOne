@@ -71,7 +71,7 @@
     </main>
     <section class="container text-dark p-5" id="contact">
         <h1 class="text-center mb-3">Contact Me</h1>
-        <form action="POST" data-netlify="true" name="PortfolioContact">
+        <form action="POST" data-netlify="true" name="PortfolioContact" data-netlify-recaptcha="true">
             <div class="row mb-1">
                 <div class="col">
                     <label class="form-label">First Name</label>
@@ -110,6 +110,7 @@
                         aria-label="Message" required></textarea>
                 </div>
             </div>
+            <div data-netlify-recaptcha="true"></div>
             <button type="submit" class="btn btn-primary mt-2">Submit</button>
         </form>
     </section>
